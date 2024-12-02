@@ -38,13 +38,13 @@ cd reactdj-boilerplate
 ### **2. Install Dependencies**
 #### **Frontend**
 ```bash
-cd frontend
+cd Frontend
 npm install
 ```
 
 #### **Backend**
 ```bash
-cd backend
+cd Backend
 pip install -r requirements.txt
 ```
 
@@ -56,8 +56,8 @@ python manage.py runserver
 
 #### **Frontend**
 ```bash
-cd frontend
-npm start
+cd Frontend
+npm run dev
 ```
 
 ---
@@ -74,7 +74,7 @@ ReactDJ-Boilerplate/
 ├── backend/                 # Django backend
 │   ├── manage.py
 │   ├── requirements.txt
-│   └── project_name/
+│   └── Backend/
 │       ├── settings.py
 │       ├── urls.py
 │       └── wsgi.py
